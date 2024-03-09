@@ -1,0 +1,38 @@
+.layout-wrapper {
+  display: flex;
+  padding: 30px;
+}
+.sidebar {
+  width: 96px;
+  background: #0c0c16;
+  border-radius: 15px;
+  padding: 35px 32px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.menus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.Logo {
+  margin-bottom: 75px;
+}
+.inputt {
+  margin: 32px 36px;
+  width: 381px;
+  height: 32px;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  transition: all 0.5s;
+  color: white;
+}
+.inputt:hover{
+    border: 1px solid lightgray;
+
+}
